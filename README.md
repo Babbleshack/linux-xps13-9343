@@ -5,11 +5,8 @@ This package currently patches 4.0-rc5 in order to get sound working correctly i
 ## Not yet working
 
 * palm detection
-
-## fixed since rc5
-
-* drm underrun error has been fixed. 
-* framebuffer corruption no longer occurs when switching tty
+* Framebuffer corruption when switching tty
+* dmesg error "[drm:intel_cpu_fifo_underrun_irq_handler [i915]] *ERROR* CPU pipe A FIFO underrun"
 
 ## Installation Steps
 
