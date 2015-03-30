@@ -6,6 +6,11 @@ This package currently patches 4.0-rc5 in order to get sound working correctly i
 
 * palm detection
 
+## fixed since rc5
+
+* drm underrun error has been fixed. 
+* framebuffer corruption no longer occurs when switching tty
+
 ## Installation Steps
 
     git clone https://github.com/soleblaze/linux-xps13-9343
